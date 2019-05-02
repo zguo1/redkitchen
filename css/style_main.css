@@ -1,0 +1,57 @@
+body {
+  margin: 0 6%;
+  font-size: 18px;
+
+}
+
+header ul {
+  font-family: Lato;
+  font-size: 1em;
+  padding: 0;
+  list-style: none;
+}
+
+.masthead {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px 10px 15px;
+  border: 1px solid rgba(238,238,238 ,1);
+  border-radius: 5px;
+  box-shadow: 5px 10px 20px -20px rgba(85,172,238 ,1);
+}
+
+.masthead a {
+  text-decoration: none;
+  color: red;
+}
+.masthead a:hover {
+  color: black;
+}
+.masthead .active a {
+  text-decoration: underline;
+  text-decoration: red;
+}
+.logo_header img {
+  width: 180px;
+  height: auto;
+  margin-right: : 15px;
+}
+.search_header {
+
+  margin-left: auto;
+
+}
+.search_term {
+  height: 1.3em;
+  width: auto;
+}
+.search_button {
+
+  height: 2em;
+  width: auto;
+}
+
+
+.masthead li:not(:last-child):not(.logo_header) {
+  margin-right: 15px;
+}
